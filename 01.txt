@@ -1,0 +1,14 @@
+IN THIS REPOSITORY YOU WILL BE ABLE TO LEARN
+
+1. Use common semantic and meta tags to improve the accessibility, redability and SEO of a web page.
+2. Create commonly-used web page layouts and components.
+3. Create and test a form with client-side validation.
+4. Recognize server-side connection and the languages used to carry out request and responses.
+5. Post form data to a sercer.
+6. Create a video and audio player that can rate the media played.
+7. Use Flexbox and CSS grids to create responsive layouts and charts.
+8. Use advanced CSS selectors such as pseudo-class for tagetted styling.
+9. Use CSS effects to introduce text effects, animation and transformation into your styleshheet.
+10. Create simple keyframe animations.
+11. Perform basic front-end testing, debugging and error handling.
+12. Adapt ypur CSS to perform as expected in different browser.
