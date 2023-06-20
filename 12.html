@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nyagrodha</title>
+        <meta property="og:title" content="Our menu">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="image1.png">
+        <meta property="og:url" content="http://nyagrodha">
+        <meta property="og:description" content="Nyagrodha is a south Indian cafe that serve all type of south Indian foods.">
+        <link rel-"stylesheet" href="10.css">
+    </head>
+    <body>
+        <header>
+            <img src="img1.jpg"   width="550" height="300" />     <!--just for example-->
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="location.html">Location</a></li>      <!--just for example-->
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Sign Up</h1>
+            <form>
+                <div>
+                    <label>First name</label>
+                    <input type="text" id="first_name" name="first_name" required minlength="3" maxlength="12">
+                </div>
+                <div>
+                    <label>Last name</label>
+                    <input type="text" id="last_name" name="last_name" required minlength="3" maxlength="12">
+                </div>
+                <div>
+                    <label>Email Id</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <div>
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+            <style>
+                input:focus:invalid{
+                    border: 2px solid red;
+                }
+            </style>
+            <h1>Book a Table</h1>
+            <form method="POST">
+                <fieldset id="size">
+                    <input type="radio" value="2" name="size"> 2-person table
+                    <input type="radio" value="4" name="size" checked> 4-person table
+                    <input type="radio" value="6" name="size"> 6-person table
+                </fieldset>
+                <fieldset id="location">
+                    <input type="radio" value="outdoor" name="location"> outdoor
+                    <input type="radio" value="indoor" name="location" checked> Indoor
+                </fieldset>
+                <button type="submit">Book Table</button>
+            </form>
+        </main>
+        <footer>
+            <p> <i> Copyright Nyagrodha </i> </p>
+        </footer>
+    </body>
+</html>
