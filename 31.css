@@ -1,0 +1,24 @@
+/* FLEX CHART */
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+.label {
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row .container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.coffee {
+    background-color: brown;
+}
+.dosa {
+    background-color: yellow;
+}
+.idli {
+    background-color: blue;
+}
