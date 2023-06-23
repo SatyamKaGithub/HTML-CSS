@@ -1,0 +1,19 @@
+body {
+    margin: 20px;
+}
+.box {
+    background-color: #247;
+    color: white;
+    margin: 10px;
+    padding: 28px;
+    border-radius: 10px;
+    font-size: 150%;
+    font-style: italic;
+}
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-rows: 100px;  /* fr - fraction */
+    grid-gap: 10px;
+    background-color: rgb(202, 96, 96);
+}
