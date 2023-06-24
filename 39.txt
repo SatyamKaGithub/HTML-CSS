@@ -1,0 +1,24 @@
+// Pseudo Classes
+
+Pseudo classes are state-based selectors, which means that they allow you to select element based on their state.
+Example of Pseudo class selectors
+1. Hover state
+2. In Focus  
+3. Visited Links
+
+# Syntax for Pseudo class selectors
+
+selector:pseudo-class {
+    property:value
+}
+
+# Form state pseudo class selectors
+1. :disabled and :enabled
+2. :checked and :interminate
+3. :valid and :invalid
+
+# Specific position based pseudo selector
+1. :first-of-type
+2. :last-of-type
+3. :nth-of-type()
+4. :nth-last-of-type()
