@@ -1,0 +1,15 @@
+.box {
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 100px;
+    background-color: blue;
+    border-radius: 30px;
+    border: solid 10px black;
+}
+.box:hover{
+    transform:rotateZ(60deg);
+    background-color: aqua;
+    opacity: 80%;
+    transition: 2s;
+}
